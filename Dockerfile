@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk add --no-cache musl-dev gcc g++ gfortran fftw wget
+RUN apk add --no-cache musl-dev gcc g++ gfortran wget
 RUN apk add --update make
 WORKDIR /root
 RUN wget http://www.openphase.de/upload/content/OpenPhase.V0.9.2.zip
